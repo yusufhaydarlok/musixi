@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "musixi-core", "musixi-core\musixi-core.csproj", "{0C3EC96E-164A-490E-A5AD-686BE2A4F949}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "musixi-repository", "musixi-repository\musixi-repository.csproj", "{C0D179F1-3C08-4C93-B15B-B50F8543EF87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "musixi-service", "musixi-service\musixi-service.csproj", "{678379CF-D2A2-47F8-BF89-8A1AD5A039A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "musixi-caching", "musixi-caching\musixi-caching.csproj", "{A71EAAFF-5B28-4EE6-BEA4-F9FE904A3470}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "musixi-api", "musixi-api\musixi-api.csproj", "{8EC950D9-587B-421F-9D3B-DDC140E254AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "musixi-web", "musixi-web\musixi-web.csproj", "{D5D7F31D-ADCF-4751-AE5A-16CCF9502602}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FB8EBE1B-C556-4347-9CF0-CF494CC8A596}"
+	ProjectSection(SolutionItems) = preProject
+		ports.txt = ports.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C3EC96E-164A-490E-A5AD-686BE2A4F949}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C3EC96E-164A-490E-A5AD-686BE2A4F949}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C3EC96E-164A-490E-A5AD-686BE2A4F949}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C3EC96E-164A-490E-A5AD-686BE2A4F949}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0D179F1-3C08-4C93-B15B-B50F8543EF87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0D179F1-3C08-4C93-B15B-B50F8543EF87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0D179F1-3C08-4C93-B15B-B50F8543EF87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0D179F1-3C08-4C93-B15B-B50F8543EF87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{678379CF-D2A2-47F8-BF89-8A1AD5A039A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{678379CF-D2A2-47F8-BF89-8A1AD5A039A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{678379CF-D2A2-47F8-BF89-8A1AD5A039A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{678379CF-D2A2-47F8-BF89-8A1AD5A039A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A71EAAFF-5B28-4EE6-BEA4-F9FE904A3470}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A71EAAFF-5B28-4EE6-BEA4-F9FE904A3470}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A71EAAFF-5B28-4EE6-BEA4-F9FE904A3470}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A71EAAFF-5B28-4EE6-BEA4-F9FE904A3470}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EC950D9-587B-421F-9D3B-DDC140E254AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EC950D9-587B-421F-9D3B-DDC140E254AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EC950D9-587B-421F-9D3B-DDC140E254AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EC950D9-587B-421F-9D3B-DDC140E254AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5D7F31D-ADCF-4751-AE5A-16CCF9502602}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5D7F31D-ADCF-4751-AE5A-16CCF9502602}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5D7F31D-ADCF-4751-AE5A-16CCF9502602}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5D7F31D-ADCF-4751-AE5A-16CCF9502602}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D400B7EA-5279-48C2-836E-03628847E13E}
+	EndGlobalSection
+EndGlobal
